@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
+<!<!DOCTYPE HTML>
 <html>
 	<head>
-		<title>Week 1: Principles and Practices - your_name</title>
+		<title>Final Project: Portable Study Desks - William Ror</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -9,11 +9,60 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism.min.css">
 		
 		<style>
-			/* Your existing week1 styles here */
 			.week-date { color: #666; font-style: italic; }
 			.less-bold { font-weight: 400; }
 			.image-caption { text-align: center; font-style: italic; color: #666; margin-top: -10px; }
 			
+			/* Project Sections Styling */
+			.project-section {
+				background: #f8f9fa;
+				border-left: 4px solid #e74c3c;
+				padding: 1.5rem;
+				margin-bottom: 2rem;
+				border-radius: 0 8px 8px 0;
+			}
+
+			.section-title {
+				font-size: 1.4rem;
+				color: #c0392b;
+				margin-bottom: 1rem;
+				border-bottom: 2px solid #e74c3c;
+				padding-bottom: 0.5rem;
+			}
+
+			.feature-box {
+				background: white;
+				padding: 1rem;
+				margin: 0.5rem 0;
+				border-radius: 5px;
+				border-left: 3px solid #3498db;
+			}
+
+			.design-specs {
+				display: grid;
+				grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+				gap: 1rem;
+				margin: 1rem 0;
+			}
+
+			.spec-item {
+				background: #e8f4f8;
+				padding: 1rem;
+				border-radius: 5px;
+				text-align: center;
+			}
+
+			.spec-value {
+				font-size: 1.2rem;
+				font-weight: bold;
+				color: #2c3e50;
+			}
+
+			.spec-label {
+				font-size: 0.9rem;
+				color: #7f8c8d;
+			}
+
 			/* In-Page Navigation Box CSS */
 			.inpage-nav-box {
 				float: right;
@@ -110,57 +159,273 @@
 				<div class="inner">
 					<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo"><strong>UNIPOD Rwanda |</strong> your_name</a>
+						<a href="index.html" class="logo"><strong>UniPod South Sudan |</strong> William Ror</a>
 						<ul class="icons">
-							<li><a href="your-github-link" class="icon brands fa-github"><span class="label">Github</span></a></li>
-							<li><a href="your-linkedin-link" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="mailto:your-email@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+							<li><a href="https://github.com/williams-ror" class="icon brands fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/william-r-mawut-4a6a22301" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="mailto:william.jr.unipodss@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 						</ul>
 					</header>
 
-					<!-- Week 1 Content -->
+					<!-- Final Project Content -->
 					<section>
 						<div class="inpage-nav-box">
 							<h4>
-								On This Page
-								<button class="nav-toggle-button" aria-expanded="true" aria-controls="nav-list-week1" title="Toggle navigation list">-</button>
+								Project Sections
+								<button class="nav-toggle-button" aria-expanded="true" aria-controls="nav-list-final" title="Toggle navigation list">-</button>
 							</h4>
-							<ul id="nav-list-week1">
-								<li><a href="#intro-section">Introduction</a></li>
-								<li><a href="#process-docs-section">Process Documentation</a></li>
-								<li><a href="#reflection-section">Reflection</a></li>
+							<ul id="nav-list-final">
+								<li><a href="#project-vision">Project Vision</a></li>
+								<li><a href="#problem-solution">Problem & Solution</a></li>
+								<li><a href="#design-specs">Design Specifications</a></li>
+								<li><a href="#fabrication">Fabrication Process</a></li>
+								<li><a href="#educational-value">Educational Value</a></li>
+								<li><a href="#implementation">Implementation Plan</a></li>
 							</ul>
 						</div>
 
 						<header class="main">
-							<h1>Final Project: Title</h1>
+							<h1>Final Project: Portable Student Study Desks</h1>
+							<p class="week-date">CNC Fabrication Education Platform - Practical Implementation</p>
 						</header>
 
-						<!-- Summary of the weekly task -->
+						<!-- Project Summary -->
 						<div class="box" id="quick-summary">
 							<header class="major">
-								<h3>Project Summary</h3>
+								<h3>Project Overview</h3>
 							</header>
 							<p>
-								Briefly describe your project.
+								I'm creating a <strong>CNC Fabrication Education Platform</strong> and will implement <strong>Portable Student Study Desks</strong> as a practical project. This initiative addresses the critical need for affordable, portable furniture for students in South Sudan while demonstrating comprehensive digital fabrication skills.
 							</p>
+							<ul class="alt">
+								<li><strong>Primary Goal:</strong> Create foldable, portable desks for students without proper study furniture</li>
+								<li><strong>Technical Focus:</strong> CNC machining, ergonomic design, mass production techniques</li>
+								<li><strong>Educational Value:</strong> Teach joinery, digital fabrication, and user-centered design</li>
+								<li><strong>Local Impact:</strong> Solve practical problems using locally available materials and tools</li>
+							</ul>
 						</div>
-						<!-- ... all your existing week1 content bellow... -->
+
 						<div id="Notes" class="tab-content active">
 							<div>
 								&nbsp;
-								<!-- Introduction -->
-								<header class="major">
-								<h2 id="intro-section">Header 1</h2>
-								</header>
-								<p>Add your content</p>
+								
+								<!-- Project Vision -->
+								<div class="project-section" id="project-vision">
+									<h2 class="section-title">Project Vision & Concept</h2>
+									<p>This project combines digital fabrication education with practical community impact by creating portable study desks that address real needs in South Sudanese education.</p>
+									
+									<div class="feature-box">
+										<h4>Dual Purpose Approach</h4>
+										<p><strong>Educational Platform:</strong> Serves as a comprehensive CNC fabrication learning resource with step-by-step tutorials, safety protocols, and project documentation.</p>
+										<p><strong>Practical Implementation:</strong> Produces tangible, useful products that directly benefit students and demonstrate the value of digital fabrication skills.</p>
+									</div>
 
-								<!-- add more sections of your project -->
-								<header class="major">
-								<h2 id="process-docs-section"></h2>
-								</header>
-								<p></p>
-						
+									<div class="feature-box">
+										<h4>Technical Foundation</h4>
+										<p>The project will utilize my workshop's CNC equipment alongside traditional woodworking tools, creating a hybrid approach that's both technologically advanced and locally sustainable.</p>
+									</div>
+								</div>
+
+								<!-- Problem & Solution -->
+								<div class="project-section" id="problem-solution">
+									<h2 class="section-title">Problem & Solution</h2>
+									
+									<div class="feature-box">
+										<h4> The Problem</h4>
+										<ul>
+											<li>Many students in South Sudan lack proper study surfaces at home</li>
+											<li>Traditional furniture is expensive and not portable</li>
+											<li>Limited resources for educational furniture in schools</li>
+											<li>Students often study on stools or uneven surfaces</li>
+										</ul>
+									</div>
+
+									<div class="feature-box">
+										<h4> Our Solution</h4>
+										<ul>
+											<li>Foldable wooden desks that students can use anywhere</li>
+											<li>Affordable production using local materials and CNC efficiency</li>
+											<li>Ergonomic design with book ledges and writing surfaces</li>
+											<li>Lightweight and portable for easy transportation</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Design Specifications -->
+								<div class="project-section" id="design-specs">
+									<h2 class="section-title">Design Specifications</h2>
+									
+									<div class="design-specs">
+										<div class="spec-item">
+											<div class="spec-value">60cm × 40cm</div>
+											<div class="spec-label">Writing Surface</div>
+										</div>
+										<div class="spec-item">
+											<div class="spec-value">2kg</div>
+											<div class="spec-label">Maximum Weight</div>
+										</div>
+										<div class="spec-item">
+											<div class="spec-value">15-25cm</div>
+											<div class="spec-label">Adjustable Height</div>
+										</div>
+										<div class="spec-item">
+											<div class="spec-value">4 Desks</div>
+											<div class="spec-label">Per Plywood Sheet</div>
+										</div>
+									</div>
+
+									<h4>Key Design Features:</h4>
+									<ul>
+										<li><strong>Foldable X-style legs</strong> for compact storage and portability</li>
+										<li><strong>Integrated book ledge</strong> to prevent materials from sliding</li>
+										<li><strong>Pencil groove</strong> for writing instrument storage</li>
+										<li><strong>Device slot</strong> for phones or small tablets</li>
+										<li><strong>Interlocking joinery</strong> requiring minimal hardware</li>
+										<li><strong>Rounded edges</strong> for student safety</li>
+									</ul>
+
+									<h4>Visual Design Concept:</h4>
+									<pre style="background: #2c3e50; color: white; padding: 1rem; border-radius: 5px;">
+    ┌─────────────────────┐
+    │                     │
+    │   WRITING SURFACE   │  ← Book ledge
+    │                     │
+    │    [Pencil groove]   │  ← Pen storage
+    │                     │
+    │  [Phone slot]       │  ← Device holder
+    └─────────────────────┘
+           ▐█▌  ▐█▌          ← Foldable X-legs
+           ▐█▌  ▐█▌
+									</pre>
+								</div>
+
+								<!-- Fabrication Process -->
+								<div class="project-section" id="fabrication">
+									<h2 class="section-title">Fabrication Process</h2>
+									
+									<h4>Materials Required:</h4>
+									<ul>
+										<li><strong>Wood:</strong> 12mm plywood or local timber (1 sheet makes 4 desks)</li>
+										<li><strong>Hardware:</strong> M6 bolts with wingnuts, washers</li>
+										<li><strong>Finishing:</strong> Sandpaper, wood sealant or linseed oil</li>
+										<li><strong>Optional:</strong> Carry handles, non-slip pads</li>
+									</ul>
+
+									<h4>Step-by-Step Fabrication:</h4>
+									<div class="feature-box">
+										<h4>1. Digital Design Phase</h4>
+										<ul>
+											<li>Create CAD models in Fusion 360</li>
+											<li>Design interlocking parts for easy assembly</li>
+											<li>Generate CNC toolpaths for cutting and engraving</li>
+											<li>Test digital fit before fabrication</li>
+										</ul>
+									</div>
+
+									<div class="feature-box">
+										<h4>2. CNC Machining</h4>
+										<ul>
+											<li>Secure plywood sheet on CNC bed</li>
+											<li>Execute cutting program for all components</li>
+											<li>Cut desk surface, legs, support braces</li>
+											<li>Engrave educational content or school logos</li>
+										</ul>
+									</div>
+
+									<div class="feature-box">
+										<h4>3. Component Preparation</h4>
+										<ul>
+											<li>Sand all edges for student safety</li>
+											<li>Drill holes for bolt assembly</li>
+											<li>Test fit all components</li>
+											<li>Apply protective finish</li>
+										</ul>
+									</div>
+
+									<div class="feature-box">
+										<h4>4. Assembly & Testing</h4>
+										<ul>
+											<li>Assemble foldable legs using bolts</li>
+											<li>Attach book ledge and supports</li>
+											<li>Test folding mechanism and stability</li>
+											<li>Gather feedbacks for improvements</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Educational Value -->
+								<div class="project-section" id="educational-value">
+									<h2 class="section-title">Educational Value & Learning Outcomes</h2>
+									
+									<div class="feature-box">
+										<h4>🎓 For Students Learning Fabrication:</h4>
+										<ul>
+											<li><strong>Complete Digital Workflow:</strong> From CAD design to physical product</li>
+											<li><strong>CNC Programming:</strong> Toolpath generation and machine operation</li>
+											<li><strong>Material Science:</strong> Understanding wood properties and selection</li>
+											<li><strong>Ergonomic Design:</strong> Creating user-friendly products</li>
+											<li><strong>Quality Control:</strong> Precision measurement and fitting</li>
+										</ul>
+									</div>
+
+									<div class="feature-box">
+										<h4>For End-User Students and personal Home use:</h4>
+										<ul>
+											<li>Provides proper study surfaces for improved learning</li>
+											<li>Encourages consistent study habits with dedicated space</li>
+											<li>Portable design supports learning anywhere</li>
+											<li>Demonstrates practical application of engineering</li>
+										</ul>
+									</div>
+
+									<div class="feature-box">
+										<h4>🔧 Technical Skills Developed:</h4>
+										<ul>
+											<li>CAD/CAM software proficiency (Solidworks or Fusion 360)</li>
+											<li>CNC machine operation and maintenance</li>
+											<li>Woodworking and joinery techniques</li>
+											<li>Project planning and management</li>
+											<li>Quality assurance and testing protocols</li>
+										</ul>
+									</div>
+								</div>
+
+								<!-- Implementation Plan -->
+								<div class="project-section" id="implementation">
+									<h2 class="section-title">Implementation Timeline & Next Steps</h2>
+									
+									<h4>Project Timeline:</h4>
+									<ul>
+										<li><strong>Weeks 1-2:</strong> Research & Design</li>
+										<li><strong>Weeks 3-4:</strong> CAD modeling and digital prototyping</li>
+										<li><strong>Weeks 5-6:</strong> Physical prototyping and testing</li>
+										<li><strong>Weeks 7-8:</strong> Design refinement based on feedback</li>
+										<li><strong>Weeks 9-10:</strong> Small batch production (10-20 units)</li>
+										<li><strong>Weeks 11-12:</strong> Deployment and impact assessment</li>
+									</ul>
+
+									<h4>Success Metrics:</h4>
+									<ul>
+										<li>Produce functional, durable study desks</li>
+										<li>Create comprehensive fabrication documentation</li>
+										<li>Train 5+ students in complete fabrication process</li>
+										<li>Collect user feedback for continuous improvement</li>
+									</ul>
+
+									<h4>Future Scalability:</h4>
+									<ul>
+										<li>Develop different sizes based on the needs</li>
+										<li>Create version with integrated solar lighting</li>
+										<li>Add digital components for interactive learning</li>
+									
+									
+									</ul>
+
+									<div class="feature-box">
+										<h4>Expected Impact:</h4>
+										<p>This project demonstrates how digital fabrication skills can create tangible solutions for local challenges. By combining technical education with community needs, we're building both furniture and futures - providing students with better learning tools while teaching valuable manufacturing skills that can support local economic development.</p>
+									</div>
+								</div>
 								
 							</div>
 						</div>
@@ -180,55 +445,40 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script src="assets/js/sidebar-loader.js"></script> <!-- Universal sidebar loader -->
+		<script src="assets/js/sidebar-loader.js"></script>
 		
 		<!-- Page-specific JavaScript -->
 		<script>
-			// Initialize page-specific functionality
 			document.addEventListener('DOMContentLoaded', function() {
-				// Tab functionality
-				const tabButtons = document.querySelectorAll('.tab-button');
-				tabButtons.forEach(button => {
-					button.addEventListener('click', function() {
-						const tabName = this.getAttribute('data-tab');
-						
-						// Update buttons
-						tabButtons.forEach(btn => btn.classList.remove('active'));
-						this.classList.add('active');
-						
-						// Update content
-						document.querySelectorAll('.tab-content').forEach(tab => {
-							tab.style.display = 'none';
-							tab.classList.remove('active');
-						});
-						
-						const activeTab = document.getElementById(tabName);
-						if (activeTab) {
-							activeTab.style.display = 'block';
-							activeTab.classList.add('active');
-						}
-					});
-				});
+				// Navigation toggle functionality
+				const navToggle = document.querySelector('.nav-toggle-button');
+				const navList = document.getElementById('nav-list-final');
 				
-				// Navigation toggles
-				const navToggles = document.querySelectorAll('.nav-toggle-button');
-				navToggles.forEach(toggle => {
-					toggle.addEventListener('click', function() {
-						const navList = this.closest('.inpage-nav-box').querySelector('ul');
-						if (navList) {
-							navList.classList.toggle('collapsed');
-							this.textContent = navList.classList.contains('collapsed') ? '+' : '-';
-							this.setAttribute('aria-expanded', !navList.classList.contains('collapsed'));
-						}
+				if (navToggle && navList) {
+					navToggle.addEventListener('click', function() {
+						const isExpanded = this.getAttribute('aria-expanded') === 'true';
+						this.setAttribute('aria-expanded', !isExpanded);
+						navList.classList.toggle('collapsed');
+						this.textContent = isExpanded ? '+' : '-';
 					});
-				});
-				
-				// Set first tab as active by default
-				const firstTab = document.querySelector('.tab-content.active');
-				if (firstTab) {
-					firstTab.style.display = 'block';
 				}
+
+				// Smooth scrolling for navigation links
+				document.querySelectorAll('.inpage-nav-box a').forEach(anchor => {
+					anchor.addEventListener('click', function(e) {
+						e.preventDefault();
+						const targetId = this.getAttribute('href');
+						const targetElement = document.querySelector(targetId);
+						
+						if (targetElement) {
+							window.scrollTo({
+								top: targetElement.offsetTop - 100,
+								behavior: 'smooth'
+							});
+						}
+					});
+				});
 			});
 		</script>
 	</body>
-</html>
+</html
